@@ -1,0 +1,19 @@
+body{
+    margin:0;
+    padding:0;
+    background-image: url("/public/Images/istockphoto.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+
+}
+.cardset
+{
+
+    margin-left: 70%;margin-top:15%;
+}
+marquee
+{
+     background-color:slateblue;
+     color:white
+}
