@@ -36,7 +36,7 @@ mailRoute.post("/", function(req,res)
     from: 'rock2021kvsk@gmail.com', // Sender address
     to:Item.mail,     
     subject:  "Diwali greetings from "+ Item.from,
-    text: "Happy Diwali" 
+    text: "https://swethadiwaliwishes.herokuapp.com" 
 };
 transporter.sendMail(message, function(error, info){
   if (error) {
